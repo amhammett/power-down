@@ -1,0 +1,14 @@
+{
+    "compileOptions": {
+        "declaration": true,
+        "importHelpers": true,
+        "module": "commonjs",
+        "outdir": "lib",
+        "rootDir": "src",
+        "strict": true,
+    },
+    "include": [
+        "src/**/*.ts",
+        "test/**/*.ts"
+      ],
+}
