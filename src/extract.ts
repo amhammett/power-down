@@ -7,7 +7,7 @@ import * as xml2js from 'xml2js'
 const debug = false
 const TMP_DIR = 'tmp'
 
-export interface Metadata {
+interface Metadata {
   [key: string]: any
 }
 
