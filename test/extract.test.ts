@@ -3,6 +3,6 @@ import * as extract from '../src/extract'
 
 describe('this is a bad test', () => {
   it('and you should feel bad', () => {
-    chai.expect(true).to.be.true
+    chai.expect(extract).to.exist
   })
 })
